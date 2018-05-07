@@ -1,0 +1,33 @@
+{
+  "name": "FinalLaboratorioIII2018BAK",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "nodemon ./build/server.js"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "helmet": "^3.12.0",
+    "morgan": "^1.9.0",
+    "typescript": "^2.8.3"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.17.0",
+    "@types/cookie-parser": "^1.4.1",
+    "@types/cors": "^2.8.4",
+    "@types/express": "^4.11.1",
+    "@types/helmet": "0.0.37",
+    "@types/morgan": "^1.7.35",
+    "nodemon": "^1.17.4"
+  }
+}
